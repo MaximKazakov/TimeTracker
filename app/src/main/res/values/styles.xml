@@ -6,6 +6,8 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="buttonStyle">@style/ButtonThemeMain</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -17,4 +19,12 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="ButtonThemeMain" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_main_theme_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Progress" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_drawable</item>
+    </style>
 </resources>
